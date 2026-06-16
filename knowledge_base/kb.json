@@ -1,0 +1,60 @@
+{
+  "resolutions": [
+    {
+      "id": "KB001",
+      "issue": "password reset",
+      "solution": "1. Go to login page → Click 'Forgot Password'\n2. Enter your email address\n3. Check email for reset link\n4. Click link and create new password\n5. Password must be 8+ chars with uppercase, numbers, symbols",
+      "category": "account",
+      "tags": ["password", "access", "account"],
+      "severity": "low"
+    },
+    {
+      "id": "KB002",
+      "issue": "vpn connection failed",
+      "solution": "1. Verify VPN credentials are correct\n2. Restart VPN client application\n3. Check internet connection\n4. Restart computer if still failing\n5. Contact IT if persists",
+      "category": "network",
+      "tags": ["vpn", "network", "connectivity"],
+      "severity": "high"
+    },
+    {
+      "id": "KB003",
+      "issue": "laptop slow",
+      "solution": "1. Close unnecessary browser tabs\n2. Clear temporary files: Settings > Storage > Temp files\n3. Disable startup programs\n4. Check disk space (delete old files if <10% free)\n5. Restart computer\n6. If still slow, contact IT",
+      "category": "performance",
+      "tags": ["performance", "slow", "optimization"],
+      "severity": "medium"
+    },
+    {
+      "id": "KB004",
+      "issue": "outlook email not syncing",
+      "solution": "1. Close Outlook completely\n2. Restart the application\n3. Check internet connection\n4. Go to Settings > Accounts > Update password\n5. Restart Outlook again",
+      "category": "email",
+      "tags": ["email", "outlook", "sync"],
+      "severity": "medium"
+    },
+    {
+      "id": "KB005",
+      "issue": "monitor not displaying",
+      "solution": "1. Check all cable connections are secure\n2. Restart monitor power\n3. Try different USB/HDMI port on laptop\n4. Restart computer\n5. Update graphics drivers\n6. Contact IT if still not working",
+      "category": "hardware",
+      "tags": ["monitor", "display", "hardware"],
+      "severity": "high"
+    },
+    {
+      "id": "KB006",
+      "issue": "cannot access shared drive",
+      "solution": "1. Check network connection\n2. Verify you have access permissions\n3. Try mapping drive again: File Explorer > Map network drive\n4. Use correct path: \\\\server\\share\n5. Contact IT if you think you should have access",
+      "category": "network",
+      "tags": ["shared", "drive", "network", "access"],
+      "severity": "medium"
+    },
+    {
+      "id": "KB007",
+      "issue": "printer not working",
+      "solution": "1. Check printer is powered on and connected\n2. Restart printer\n3. Remove print jobs: Settings > Devices > Printers\n4. Reinstall printer driver\n5. Restart computer\n6. Contact IT for further help",
+      "category": "hardware",
+      "tags": ["printer", "printing", "hardware"],
+      "severity": "medium"
+    }
+  ]
+}
